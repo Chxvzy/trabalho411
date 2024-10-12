@@ -1,0 +1,75 @@
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  :root {
+    --white: #F9F7F7;
+    --green: #B5C18E;
+    --palid-rose: #F7DCB9;
+    --light-brown: #DEAC80;
+    --brown: #B99470;
+  }
+
+  header {
+    background-color:var(--green);
+    height: 2.2rem;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .first {
+    background-color: var(--palid-rose);
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.2rem;
+  }
+
+  .first p {
+    max-width: 21.5rem;
+    margin-inline: 2rem 2rem;
+  }
+
+  .first img {
+    width: 12rem;
+    margin-block: 1rem;
+  }
+
+  .second {
+    background-color: var(--light-brown);
+    height: 14rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .second p {
+    width: 22rem;
+    margin-inline: 1.4rem 1.4rem;
+  }
+
+  .second img {
+    margin-inline: 2rem 0rem;
+    width: 16rem;
+    height: 11.2rem;
+  }
+
+  .third {
+    background-color: var(--brown);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .third img {
+    height: 14rem;
+    width: 14rem;
+    margin-block: 1rem;
+  }
