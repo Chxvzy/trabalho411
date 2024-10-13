@@ -1,8 +1,10 @@
-.merriweather-bold {
+* {
+
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
+} 
 
   :root {
     --white: #F9F7F7;
@@ -49,7 +51,7 @@
   }
 
   .second p {
-    width: 22rem;
+    width: 30rem;
     margin-inline: 1.4rem 1.4rem;
   }
 
